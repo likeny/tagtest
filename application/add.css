@@ -1,0 +1,33 @@
+AnchorPane{
+	-fx-background-color:#DCFFDC;
+}
+TextField{
+	-fx-background-radius:5.0;
+	-fx-border-radius:5.0;
+}
+Button{
+	-fx-background-color:#AAEBAA;
+	-fx-background-radius:10.0;
+	-fx-border-radius:10.0;
+	-fx-text-fill:#006400;	
+}
+TextField:focused{
+	-fx-background-color:#98FB98;
+	-fx-border-color:#2E8B57;
+	-fx-background-radius:5.0;
+	-fx-border-radius:5.0;
+	-fx-effect:dropshadow(three-pass-box, #52E252, 3.0,0.5,2.0,2.0);
+}
+Button:hover{
+	-fx-cursor:hand;
+	-fx-background-color:#98FB98;
+	-fx-border-color:#2E8B57;
+	-fx-background-radius:10.0;
+	-fx-border-radius:10.0;
+	-fx-effect:dropshadow(three-pass-box, #52E252, 3.0,0.5,2.0,2.0);
+}
+Label{
+	-fx-font-size:14.0;
+	-fx-font-weight:bold;
+	-fx-text-fill:#006400;	
+}
